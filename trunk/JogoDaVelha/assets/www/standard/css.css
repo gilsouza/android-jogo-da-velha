@@ -1,0 +1,162 @@
+/*
+ * Copyright (C) 2011 The Code Bakers
+ * Authors: Gilmar Costa
+ * e-mail: thecodebakers@gmail.com e gilmarcs@gmail.com
+ * Project: https://code.google.com/p/open-source-android-blackjack/
+ * Site: http://thecodebakers.blogspot.com
+ *
+ * Licensed under the GNU GPL, Version 3.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://gplv3.fsf.org/
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * 
+ * @author Gilmar Costa - thecodebakers@gmail.com
+ */
+
+body {
+	background-color: #ddd;
+	color: #000000;
+	float: left;
+	font-family: Helvetica;
+	margin: 0;  
+    padding: 0;
+	width: 100%;
+}
+
+.button {
+	position: static;
+	width: 85px;
+	height: 40px;
+	background-color: #A4D3EE;
+	line-height: 36px;
+	border-color: #999;
+    border-style: solid;
+    border-width: 1px;
+	margin-top: 14px;
+	margin-left: 14px;
+	/*margin-right: 4px;*/
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:center;
+	text-shadow: 1px 2px 1px #000;
+	-webkit-border-radius: 8px;
+	background-image: -webkit-gradient(linear, left top, left bottom, 
+                                       from(#ccc), to(#999));
+}
+
+span.button {
+	vertical-align: middle;
+}
+
+.select {
+	border-color: #000;
+	background-image: -webkit-gradient(linear, left top, left bottom, 
+                                       from(#4F94CD), to(#104E8B));
+}
+
+div.menu {
+	podition: relative;
+	height: 70px;
+	width: 100%;
+	background-image: -webkit-gradient(linear, left top, left bottom, 
+                                       from(#ccc), to(#999));
+}
+
+div.content {
+	background-color: #EEE9E9;
+}
+
+div.info {
+	background-color: #ccc;
+	width: 100%;
+	height: 60px;
+	padding: 10px 0;
+	float: left;
+	margin: 0;
+	margin-top: -6px;
+	margin-bottom: 5px;
+	-webkit-border-bottom-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+	text-align: center;
+    text-decoration: none;
+}
+
+div.info span{
+	max-width: 280px;
+    overflow: hidden;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+	margin: 3px 20px;
+}
+
+span {
+	float:left;
+	margin-bottom: 20px;
+}
+
+div.table {
+	background-color: #000;
+	position: relative;
+	left: 50%;
+	margin: 15px auto 0 -125px;
+	color: #FFF;
+	float: left;
+	padding: 5px;
+	-webkit-border-radius: 8px;
+}
+
+div.top {
+	-webkit-border-radius: 6px;
+	background-color: #CFCFCF;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+div.center {
+	-webkit-border-radius: 6px;
+	background-color: #CFCFCF;
+	margin-left: 2px;
+	margin-bottom:2px;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+div.bottom {
+	-webkit-border-radius: 6px;
+	background-color: #CFCFCF;
+	margin-left: 2px;
+	width: 80px; 
+	height: 80px;
+	float: left;
+}
+
+div.adjust {
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.o { 
+	background-image: url('../img/o.gif');
+	background-repeat: no-repeat;
+	background-position: 15px 50%;
+	background-color: #E8E8E8;
+}
+
+.x {
+	background-image: url('../img/x.gif');
+	background-repeat: no-repeat;
+	background-position: 15px 50%;
+	background-color: #E8E8E8;
+}

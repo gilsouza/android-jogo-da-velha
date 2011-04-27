@@ -1,0 +1,77 @@
+<!--
+ * Copyright (C) 2011 The Code Bakers
+ * Authors: Gilmar Costa
+ * e-mail: thecodebakers@gmail.com e gilmarcs@gmail.com
+ * Project: https://code.google.com/p/open-source-android-blackjack/
+ * Site: http://thecodebakers.blogspot.com
+ *
+ * Licensed under the GNU GPL, Version 3.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://gplv3.fsf.org/
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * 
+ * @author Gilmar Costa - thecodebakers@gmail.com
+ -->
+ 
+<HTML>
+	<HEAD>
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<script type="text/javascript" src="app/Game.js"> </script>
+		<script type="text/javascript" src="control/Control.js"> </script>
+		<script type="text/javascript" src="app/Board.js"> </script>
+		<script type="text/javascript" src="view/View.js"> </script>
+		<script type="text/javascript" src="app/Info.js"> </script>
+		<script type="text/javascript" src="app/Menu.js"> </script>
+		<script type="text/javascript" src="standard/Strings.js"> </script>
+		<link rel="stylesheet" type="text/css" href="standard/css.css" />
+		<script type="text/javascript" src="framework/phonegap.js"></script>
+		<script type="text/javascript" src="framework/jquery-1.4.4.min.js"></script>	
+		<script type="text/javascript">
+			function start() {
+				Menu.start();
+			}
+		</script>
+		<TITLE> Jogo da Velha - JS </TITLE>
+	</HEAD>
+	<BODY onload="start();">
+		<div id="menu" >
+			<div class="menu">
+				<div>
+					<span id="start" class="button">Iniciar</span>
+					<span id="restart" class="button">Reiniciar</span>
+					<span id="end" class="button">Fim</span>
+				</div>
+			</div>
+		</div>
+		<div id="content" class="content">
+			<div class="info">
+				<span id="info">Clique em Iniciar para come&ccedil;ar um jogo.</span>
+			</div>
+		</div>
+		<div>
+			<div id="board" class="table" style="display: none;">
+			<div id="top" class="topo">
+				<div id="top1" class="adjust top"></div>
+				<div id="top2" class="top"></div>
+				<div id="top3" class="top"></div>
+			</div>
+			<div id="center" class="meio">
+				<div id="center1" class="adjust center"></div>
+				<div id="center2" class="center"></div>
+				<div id="center3" class="center"></div>
+			</div>
+			<div id="bottom" class="rodape">
+				<div id="bottom1" class="adjust bottom"></div>
+				<div id="bottom2" class="bottom"></div>
+				<div id="bottom3" class="bottom"></div>
+			</div>
+		</div>
+	</BODY>
+</HTML>
